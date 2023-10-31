@@ -12,17 +12,17 @@ print_info() {
     info "${c1} OS" os
     info "${c1} ├ " distro
     info "${c1} ├ " kernel
-    info "${c1} ├📦 " packages
+    info "${c1} ├ " packages
     info "${c1} └ " shell
     echo
     info "${c2} WM" de
-    info "${c2} ├🎨 " theme
-    info "${c2} ├֍ " icons
+    info "${c2} ├ " theme
+    info "${c2} ├ " icons
     info "${c2} └ " term
     echo
     info "${c3} PC" local_ip
-    info "${c3} ├🖥 " cpu
-    info "${c3} ├🖵 " gpu
+    info "${c3} ├ " cpu
+    info "${c3} ├ " gpu
     info "${c3} ├ " memory
     info "${c3} ├ " uptime
     info "${c3} └ " resolution
@@ -678,7 +678,7 @@ image_backend="ascii"
 # NOTE: 'auto' will pick the best image source for whatever image backend is used.
 #       In ascii mode, distro ascii art will be used and in an image mode, your
 #       wallpaper will be used.
-image_source="/home/banana/.config/neofetch/logo"
+image_source="/home/kevin/neofetchascii/bruh"
 
 
 ##--------- Ascii Options
